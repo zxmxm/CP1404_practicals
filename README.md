@@ -1,2 +1,1 @@
-# sandbox
-good good study，day day up！
+# For practicals
