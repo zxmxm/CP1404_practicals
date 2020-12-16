@@ -1,5 +1,5 @@
 word_count = {}
-text = input("Text:")
+text = input("Text: ")
 
 words = text.split()
 for word in words:

@@ -6,7 +6,7 @@ def main():
         if input('Is your name {}? (Y/n) '.format(name)).lower() in ('','y','yes'):
             email_to_name[email] = name
         else:
-            email_to_name[email] = input('Name: ')
+            email_to_name[email] = input('Name:  ')
         email = input('Email: ')
     for email, name in email_to_name.items():
         print("{} ({})".format(name, email))
